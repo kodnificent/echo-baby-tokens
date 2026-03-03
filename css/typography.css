@@ -1,0 +1,115 @@
+/* ============================================
+   Echo Baby Typography Utility Classes
+   Plain CSS equivalents of the Tailwind @utility definitions.
+   Use these in non-Tailwind projects (e.g., landing pages).
+   ============================================ */
+
+/* Display */
+.text-display-lg {
+  font-size: var(--text-display-lg-size);
+  line-height: var(--text-display-lg-line-height);
+  font-weight: var(--text-display-lg-weight);
+  letter-spacing: var(--text-display-lg-tracking);
+}
+
+.text-display-md {
+  font-size: var(--text-display-md-size);
+  line-height: var(--text-display-md-line-height);
+  font-weight: var(--text-display-md-weight);
+  letter-spacing: var(--text-display-md-tracking);
+}
+
+.text-display-sm {
+  font-size: var(--text-display-sm-size);
+  line-height: var(--text-display-sm-line-height);
+  font-weight: var(--text-display-sm-weight);
+  letter-spacing: var(--text-display-sm-tracking);
+}
+
+/* Headline */
+.text-headline-lg {
+  font-size: var(--text-headline-lg-size);
+  line-height: var(--text-headline-lg-line-height);
+  font-weight: var(--text-headline-lg-weight);
+  letter-spacing: var(--text-headline-lg-tracking);
+}
+
+.text-headline-md {
+  font-size: var(--text-headline-md-size);
+  line-height: var(--text-headline-md-line-height);
+  font-weight: var(--text-headline-md-weight);
+  letter-spacing: var(--text-headline-md-tracking);
+}
+
+.text-headline-sm {
+  font-size: var(--text-headline-sm-size);
+  line-height: var(--text-headline-sm-line-height);
+  font-weight: var(--text-headline-sm-weight);
+  letter-spacing: var(--text-headline-sm-tracking);
+}
+
+/* Title */
+.text-title-lg {
+  font-size: var(--text-title-lg-size);
+  line-height: var(--text-title-lg-line-height);
+  font-weight: var(--text-title-lg-weight);
+  letter-spacing: var(--text-title-lg-tracking);
+}
+
+.text-title-md {
+  font-size: var(--text-title-md-size);
+  line-height: var(--text-title-md-line-height);
+  font-weight: var(--text-title-md-weight);
+  letter-spacing: var(--text-title-md-tracking);
+}
+
+.text-title-sm {
+  font-size: var(--text-title-sm-size);
+  line-height: var(--text-title-sm-line-height);
+  font-weight: var(--text-title-sm-weight);
+  letter-spacing: var(--text-title-sm-tracking);
+}
+
+/* Body */
+.text-body-lg {
+  font-size: var(--text-body-lg-size);
+  line-height: var(--text-body-lg-line-height);
+  font-weight: var(--text-body-lg-weight);
+  letter-spacing: var(--text-body-lg-tracking);
+}
+
+.text-body-md {
+  font-size: var(--text-body-md-size);
+  line-height: var(--text-body-md-line-height);
+  font-weight: var(--text-body-md-weight);
+  letter-spacing: var(--text-body-md-tracking);
+}
+
+.text-body-sm {
+  font-size: var(--text-body-sm-size);
+  line-height: var(--text-body-sm-line-height);
+  font-weight: var(--text-body-sm-weight);
+  letter-spacing: var(--text-body-sm-tracking);
+}
+
+/* Label */
+.text-label-lg {
+  font-size: var(--text-label-lg-size);
+  line-height: var(--text-label-lg-line-height);
+  font-weight: var(--text-label-lg-weight);
+  letter-spacing: var(--text-label-lg-tracking);
+}
+
+.text-label-md {
+  font-size: var(--text-label-md-size);
+  line-height: var(--text-label-md-line-height);
+  font-weight: var(--text-label-md-weight);
+  letter-spacing: var(--text-label-md-tracking);
+}
+
+.text-label-sm {
+  font-size: var(--text-label-sm-size);
+  line-height: var(--text-label-sm-line-height);
+  font-weight: var(--text-label-sm-weight);
+  letter-spacing: var(--text-label-sm-tracking);
+}
