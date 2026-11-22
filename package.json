@@ -1,6 +1,6 @@
 {
   "name": "echo-baby-tokens",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Design tokens for Echo Baby — Material Design 3 colors, typography, spacing, elevation, shape, and motion.",
   "license": "MIT",
   "files": [

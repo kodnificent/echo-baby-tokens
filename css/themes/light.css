@@ -6,7 +6,7 @@
   --md-sys-color-on-primary-container: rgb(255 251 255);
   --md-sys-color-secondary: rgb(87 89 146);
   --md-sys-color-on-secondary: rgb(255 255 255);
-  --md-sys-color-secondary-container: rgb(189 190 254);
+  --md-sys-color-secondary-container: rgb(225 224 255);
   --md-sys-color-on-secondary-container: rgb(73 75 131);
   --md-sys-color-tertiary: rgb(151 43 153);
   --md-sys-color-on-tertiary: rgb(255 255 255);
@@ -49,30 +49,50 @@
   --md-sys-color-surface-container-high: rgb(233 230 243);
   --md-sys-color-surface-container-highest: rgb(228 225 237);
 
-  /* Custom Activity Colors */
-  --activity-feeding-container: rgb(255 224 210);
-  --activity-feeding-on-container: rgb(120 50 20);
-  --activity-feeding: rgb(220 120 80);
+  /* Surfaces: tiles, chips, rows, sheets */
+  --tile-surface: rgb(233 230 243);
+  --sheet-surface: rgb(245 242 254);
+  --list-divider: rgb(199 196 215);
+  --chip-outline: rgb(118 117 134);
+  --chip-selected-surface: rgb(225 224 255);
+  --chip-selected-on: rgb(73 75 131);
+  --scrim-overlay: rgb(0 0 0 / 0.32);
+  --switch-thumb-on: rgb(255 255 255);
 
-  --activity-sleep-container: rgb(210 220 255);
-  --activity-sleep-on-container: rgb(30 50 120);
-  --activity-sleep: rgb(80 100 200);
+  /* A tracker colour tints its icon square: mix it into the base at this share */
+  --tracker-tint-base: rgb(255 255 255);
+  --tracker-tint-share: 20%;
 
-  --activity-pumping-container: rgb(255 240 200);
-  --activity-pumping-on-container: rgb(100 70 10);
-  --activity-pumping: rgb(210 170 50);
+  /* Tracker colours */
+  --tracker-sleep: #9333EA;
+  --tracker-sleep-strong: #6D28D9;
+  --tracker-sleep-text: #5B21B6;
+  --tracker-feed: #0369A1;
+  --tracker-feed-strong: #0369A1;
+  --tracker-diaper: #B45309;
+  --tracker-pumping: #15803D;
+  --tracker-pumping-strong: #166534;
+  --tracker-medicine: #0F766E;
+  --tracker-temperature: #BE185D;
+  --tracker-tummy-time: #4D7C0F;
+  --tracker-tummy-time-strong: #3F6212;
+  --tracker-growth: #475569;
+  --tracker-solids: #C2410C;
+  --tracker-vaccines: #A21CAF;
+  --tracker-appointments: #1D4ED8;
+  --tracker-moments: #A16207;
 
-  --activity-diaper-container: rgb(255 245 210);
-  --activity-diaper-on-container: rgb(120 85 10);
-  --activity-diaper: rgb(180 140 20);
+  /* Baby colours, by the baby's place in the family */
+  --baby-1: #9C3D5C;
+  --on-baby-1: #FFFFFF;
+  --baby-2: #C2410C;
+  --on-baby-2: #FFFFFF;
 
-  /* Event Type Colors */
-  --event-color-feed: #0EA5E9;
-  --event-color-sleep: #8B5CF6;
-  --event-color-diaper: #F59E0B;
-  --event-color-pumping: #22C55E;
+  /* Pro tag */
+  --pro-tag-surface: #FFD6F7;
+  --pro-tag-on: #7E0A81;
 
-  /* Custom Tracker Colors */
+  /* Custom tracker colours, picked by the person */
   --tracker-color-red: #E53935;
   --tracker-color-pink: #D81B60;
   --tracker-color-purple: #8E24AA;
