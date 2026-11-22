@@ -66,7 +66,7 @@ Add `class="dark"` to `<html>` to switch to dark theme:
 | File | Contents |
 |------|----------|
 | `css/tokens.css` | Typography scale, spacing (4px grid), elevation (shadows), shape (border radius), motion (durations & easings) |
-| `css/themes/light.css` | Default light theme — MD3 semantic colors, activity colors, event colors, tracker colors |
+| `css/themes/light.css` | Default light theme — MD3 semantic colors, tile and chip surfaces, tracker colours, baby colours, Pro tag, custom tracker colours |
 | `css/themes/dark.css` | Dark theme variant |
 | `css/themes/light-mc.css` | Light medium contrast |
 | `css/themes/light-hc.css` | Light high contrast (WCAG AA) |
