@@ -50,14 +50,14 @@
   --md-sys-color-surface-container-highest: rgb(228 225 237);
 
   /* Surfaces: tiles, chips, rows, sheets */
-  --tile-surface: rgb(233 230 243);
-  --sheet-surface: rgb(245 242 254);
+  --tile-surface: var(--md-sys-color-surface-container-high);
+  --sheet-surface: var(--md-sys-color-surface-container-low);
   --list-divider: rgb(199 196 215);
-  --chip-outline: rgb(118 117 134);
-  --chip-selected-surface: rgb(225 224 255);
-  --chip-selected-on: rgb(73 75 131);
+  --chip-outline: var(--md-sys-color-outline);
+  --chip-selected-surface: var(--md-sys-color-secondary-container);
+  --chip-selected-on: var(--md-sys-color-on-secondary-container);
   --scrim-overlay: rgb(0 0 0 / 0.32);
-  --switch-thumb-on: rgb(255 255 255);
+  --switch-thumb-on: var(--md-sys-color-on-primary);
 
   /* A tracker colour tints its icon square: mix it into the base at this share */
   --tracker-tint-base: rgb(255 255 255);
